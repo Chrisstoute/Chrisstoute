@@ -26,6 +26,17 @@ My work combines **SIEM-based investigations**, **cloud security**, and **securi
 
 Recently, I developed and simulated a **full Vulnerability Management Program lifecycle** using Microsoft Azure, Tenable Vulnerability Management, PowerShell, and Linux administration tools.
 
+## ⚠️ Vulnerability Management Projects
+
+**[Vulnerability Management Program Implementation](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
+
+**[Programmatic Vulnerability Remediations (PowerShell, BASH, & Shell Commands)](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
+
+## 🚨 Threat Hunting and Security Operations
+
+**[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
+
+
 Key experience includes:
 
 • Deploying vulnerable Windows and Linux virtual machines in Microsoft Azure  
@@ -55,9 +66,11 @@ These projects simulate real SOC and vulnerability management workflows—from d
 
 # 🔥 Featured Projects
 
-## 🚨 Azure SIEM Honeypot Lab
+## 🚨 Azure SIEM Honeypot Project
 
-A cloud-based cybersecurity lab built in Microsoft Azure to capture, analyze, and visualize real-world attack traffic using Microsoft Sentinel.
+A cloud-based cybersecurity project built in Microsoft Azure to capture, analyze, and visualize real-world attack traffic using Microsoft Sentinel.
+
+**[Azure SIEM Honeypot Project](https://github.com/Chrisstoute/Azure-Siem-Honeypot-Lab)**
 
 ### Skills Demonstrated
 
@@ -75,6 +88,8 @@ A cloud-based cybersecurity lab built in Microsoft Azure to capture, analyze, an
 ## 🛡️ Vulnerability Management Program Implementation Lab
 
 A full-scale vulnerability management project simulating how enterprise organizations identify, assess, remediate, and validate security vulnerabilities across cloud-hosted infrastructure.
+
+**[Vulnerability Management Program Implementation](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
 
 ### Key Capabilities
 
@@ -109,6 +124,8 @@ A full-scale vulnerability management project simulating how enterprise organiza
 ## 🛡️ File Integrity Monitoring (FIM) Lab
 
 A PowerShell-based security project simulating real-world file monitoring and threat detection.
+
+**[File Integrity Monitoring Project](https://github.com/Chrisstoute/File-Integrity-Monitoring-Lab)**
 
 ### Key Capabilities
 
