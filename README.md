@@ -85,7 +85,7 @@ A cloud-based cybersecurity project built in Microsoft Azure to capture, analyze
 
 ---
 
-## 🛡️ Vulnerability Management Program Implementation Lab
+## 🛡️ Vulnerability Management Program Implementation Project
 
 A full-scale vulnerability management project simulating how enterprise organizations identify, assess, remediate, and validate security vulnerabilities across cloud-hosted infrastructure.
 
@@ -121,7 +121,7 @@ A full-scale vulnerability management project simulating how enterprise organiza
 
 ---
 
-## 🛡️ File Integrity Monitoring (FIM) Lab
+## 🛡️ File Integrity Monitoring (FIM) Project
 
 A PowerShell-based security project simulating real-world file monitoring and threat detection.
 
