@@ -34,6 +34,8 @@ Recently, I developed and simulated a **full Vulnerability Management Program li
 
 ## 🚨 Threat Hunting and Security Operations
 
+**[Threat Hunting Scenario (Zero-Day Ransomware)](https://github.com/Chrisstoute/PwnCrypt-Ransomware-Threat-Hunt)**
+
 **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
 
 
