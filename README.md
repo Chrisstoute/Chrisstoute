@@ -1,66 +1,223 @@
 <div align="center">
 
-# 👋 Welcome to My IT and Cybersecurity Portfolio
+# 👋 Welcome to My IT & Cybersecurity Portfolio
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,50:2a5298,100:6a11cb&height=180&section=header&text=Chris%20Stoute&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1026,50:0078D4,100:00FF99&height=180&section=header&text=Chris%20Stoute&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 
-## 🛡️ SOC Analyst | Threat Detection | SIEM | Vulnerability Management | Security Automation
+## 🛡️ SOC Analyst | Threat Hunting | Incident Response | SIEM | Vulnerability Management | Security Automation
 
-![Profile Views](https://komarev.com/ghpvc/?username=ChrisstouteE&label=Profile%20Views&color=0e75b6&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=Chrisstoute&label=Profile%20Views&color=0e75b6&style=flat)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-SOC%20Analyst-blue)
-![Microsoft Azure](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4)
-![Microsoft Sentinel](https://img.shields.io/badge/SIEM-Microsoft%20Sentinel-purple)
+![Microsoft Sentinel](https://img.shields.io/badge/SIEM-Microsoft%20Sentinel-5E5ADB)
+![Microsoft Defender](https://img.shields.io/badge/XDR-Microsoft%20Defender-0078D4)
+![Azure](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4)
 ![Tenable](https://img.shields.io/badge/Vulnerability%20Management-Tenable-red)
-![PowerShell](https://img.shields.io/badge/Automation-PowerShell-blue)
+![PowerShell](https://img.shields.io/badge/Automation-PowerShell-5391FE)
+![KQL](https://img.shields.io/badge/Query%20Language-KQL-00B7C3)
 ![Status](https://img.shields.io/badge/Status-Actively%20Building-success)
 
 </div>
 
 ---
 
+## 🧭 About This Portfolio
+
+I’m building a hands-on cybersecurity portfolio focused on **real-world SOC operations, threat hunting, incident response, vulnerability management, cloud security, and automation**.
+
+My projects are designed to simulate practical blue-team workflows: detecting suspicious activity, investigating telemetry, creating detection logic, documenting findings, containing incidents, validating remediation, and presenting results in a way that is interview-ready.
+
+I have been working heavily with **Microsoft Sentinel, Microsoft Defender for Endpoint, AzureActivity logs, KQL, Tenable Vulnerability Management, PowerShell, Azure virtual machines, Windows/Linux hardening, and GitHub documentation**.
+
+---
+
+## 🚨 Featured Threat Hunting & SOC Projects
+
+### 🧨 PwnCrypt Ransomware Threat Hunt
+
+**Repository:** [PwnCrypt Ransomware Threat Hunt](https://github.com/Chrisstoute/PwnCrypt-Ransomware-Threat-Hunt)
+
+Simulated a zero-day ransomware investigation in Microsoft Defender for Endpoint using Advanced Hunting and KQL. The hunt focused on identifying ransomware-style file activity, suspicious PowerShell execution, affected files, process chains, network activity, and Defender telemetry.
+
+**Skills Demonstrated:**
+
+- Microsoft Defender for Endpoint
+- Advanced Hunting
+- KQL
+- PowerShell command-line investigation
+- File and process telemetry analysis
+- Suspicious script execution analysis
+- MITRE ATT&CK mapping
+- Incident response documentation
+
+---
+
+### 🧯 Excessive Azure Resource Deletion Threat Hunt
+
+**Repository:** [Excessive Azure Resource Deletion Threat Hunt](https://github.com/Chrisstoute/Excessive-Azure-Resource-Deletion-Threat-Hunt)
+
+Built a Microsoft Sentinel detection and incident response workflow for excessive Azure resource deletion activity. The lab used AzureActivity logs to identify suspicious delete operations, summarize activity by caller, map entities, create a Sentinel analytics rule, trigger an incident, investigate the incident graph, document response actions, and close the incident as a true positive.
+
+**Skills Demonstrated:**
+
+- Microsoft Sentinel analytics rule creation
+- AzureActivity log investigation
+- KQL detection engineering
+- Entity mapping
+- Incident creation and alert grouping
+- Sentinel investigation graph analysis
+- Incident activity logging
+- True positive incident closure
+- MITRE ATT&CK: Impact / Data Destruction
+
+---
+
+## 🛡️ Vulnerability Management Projects
+
+### Vulnerability Management Program Implementation
+
+**Repository:** [Vulnerability Management Program](https://github.com/Chrisstoute/Vulnerability-Management-Program)
+
+Designed and documented a vulnerability management lifecycle in Microsoft Azure using Tenable Vulnerability Management. The project included vulnerable Windows and Linux virtual machines, authenticated scans, prioritization, remediation, validation, and documentation.
+
+**Key Capabilities:**
+
+- Azure VM deployment
+- Tenable vulnerability scanning
+- Credentialed scan configuration
+- Windows and Linux vulnerability validation
+- PowerShell remediation scripting
+- SMB, RDP, NTLM, SSL/TLS, FTP, and guest account hardening
+- Remediation verification through rescanning
+- Vulnerability lifecycle documentation
+
+---
+
+## 🧬 File Integrity Monitoring Project
+
+### PowerShell File Integrity Monitoring Lab
+
+**Repository:** [File Integrity Monitoring Lab](https://github.com/Chrisstoute/File-Integrity-Monitoring-Lab)
+
+Built a PowerShell-based File Integrity Monitoring system to detect unauthorized file modifications using SHA256 hashing, baseline comparison, multi-file monitoring, and security event logging.
+
+**Key Capabilities:**
+
+- SHA256 hash baseline generation
+- File modification detection
+- Multi-file and directory monitoring
+- Security event logging
+- Attacker attribution using host/user context
+- PowerShell automation
+- SOC-style alerting workflow
+
+---
+
+## ☁️ Azure SIEM Honeypot Project
+
+**Repository:** [Azure SIEM Honeypot Lab](https://github.com/Chrisstoute/Azure-Siem-Honeypot-Lab)
+
+Deployed a cloud-based honeypot in Microsoft Azure to capture and analyze attack traffic using Microsoft Sentinel, Log Analytics Workspace, Windows event logs, KQL, and geo-enriched attack visualization.
+
+**Skills Demonstrated:**
+
+- Microsoft Azure
+- Microsoft Sentinel
+- Log Analytics Workspace
+- KQL querying
+- Windows Security Event Logs
+- Event ID 4625 analysis
+- GeoIP enrichment
+- Attack map visualization
+- NSG exposure and monitoring
+
+---
+
+## 🧰 Technical Skills & Tools
+
+```text
+SIEM / XDR
+[+] Microsoft Sentinel
+[+] Microsoft Defender for Endpoint
+[+] Advanced Hunting
+[+] Log Analytics Workspace
+[+] Elastic Stack SIEM
+
+Querying & Detection
+[+] KQL
+[+] Detection engineering
+[+] IOC scoping
+[+] Alert tuning
+[+] Entity mapping
+[+] MITRE ATT&CK mapping
+
+Incident Response
+[+] Detection and analysis
+[+] Containment planning
+[+] Eradication recommendations
+[+] Recovery documentation
+[+] Post-incident activity logging
+[+] True positive / false positive classification
+
+Vulnerability Management
+[+] Tenable Vulnerability Management
+[+] Credentialed vulnerability scanning
+[+] Remediation validation
+[+] Risk prioritization
+[+] Windows and Linux hardening
+
+Cloud & Infrastructure
+[+] Microsoft Azure
+[+] Virtual machines
+[+] NSGs
+[+] Virtual networks
+[+] Public IPs
+[+] Resource groups
+[+] AzureActivity logs
+
+Automation & Scripting
+[+] PowerShell
+[+] Bash / Linux commands
+[+] Git and GitHub
+[+] Visual Studio Code
+[+] Markdown documentation
+```
+
+---
+
+## 🧠 Current Learning Focus
+
+- Microsoft Sentinel incident response workflows
+- KQL detection engineering
+- Microsoft Defender for Endpoint investigations
+- Threat hunting methodology
+- Azure security monitoring
+- Vulnerability management operations
+- PowerShell automation for security tasks
+- SOC analyst interview readiness
+- GitHub portfolio documentation
+
+---
+
+## 📌 Portfolio Goals
+
+My goal is to continue building practical cybersecurity projects that show the full workflow of a security analyst:
+
+```text
+Detect suspicious activity
+Investigate the evidence
+Scope affected users, hosts, and resources
+Map behavior to MITRE ATT&CK
+Recommend containment and remediation
+Document the incident clearly
+Create repeatable detections
+Publish professional GitHub write-ups
+```
+
+---
+
+## 🤝 Connect With Me
+
 <div align="center">
-
-I’m building hands-on cybersecurity projects focused on **real-world SOC operations**, vulnerability management, threat detection, and security monitoring.
-
-My work combines **SIEM-based investigations**, **cloud security**, and **security automation** with hands-on experience identifying, validating, remediating, and verifying vulnerabilities across Windows and Linux systems.
-
-Recently, I developed and simulated a **full Vulnerability Management Program lifecycle** using Microsoft Azure, Tenable Vulnerability Management, PowerShell, and Linux administration tools.
-
-## ⚠️ Vulnerability Management Projects
-
-**[Vulnerability Management Program Implementation](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
-
-**[Programmatic Vulnerability Remediations (PowerShell, BASH, & Shell Commands)](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
-
-## 🚨 Threat Hunting and Security Operations
-
-**[Threat Hunting Scenario (Zero-Day Ransomware)](https://github.com/Chrisstoute/PwnCrypt-Ransomware-Threat-Hunt)**
-
-**[Threat Hunting Scenario (Excessive Resource Deletion)](https://github.com/Chrisstoute/Excessive-Azure-Resource-Deletion-Threat-Hunt)**
-
-**[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
-
-
-Key experience includes:
-
-• Deploying vulnerable Windows and Linux virtual machines in Microsoft Azure  
-• Performing authenticated vulnerability scans using Tenable  
-• Simulating insecure enterprise configurations and attack surfaces  
-• Creating and validating remediation scripts using PowerShell  
-• Hardening SMB, RDP, SSL/TLS, NTLM, FTP, and Guest Account configurations  
-• Verifying remediation success through rescanning and validation testing  
-• Managing cloud infrastructure components including NSGs, NICs, Public IPs, and virtual networks  
-
-Additionally, I developed a **multi-phase File Integrity Monitoring (FIM) system using PowerShell**, capable of:
-
-• Detecting unauthorized file modifications using SHA256 hashing  
-• Monitoring multiple files across directories  
-• Logging security events with timestamps and hash comparisons  
-• Tracking attacker activity with user and host attribution  
-
-These projects simulate real SOC and vulnerability management workflows—from detection and assessment to remediation and verification.
-
-<br>
 
 💼 <a href="https://www.linkedin.com/in/chris-stoute-157040164/">Connect with me on LinkedIn</a>
 
@@ -68,93 +225,8 @@ These projects simulate real SOC and vulnerability management workflows—from d
 
 ---
 
-# 🔥 Featured Projects
+<div align="center">
 
-## 🚨 Azure SIEM Honeypot Project
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF99,50:0078D4,100:0B1026&height=120&section=footer" />
 
-A cloud-based cybersecurity project built in Microsoft Azure to capture, analyze, and visualize real-world attack traffic using Microsoft Sentinel.
-
-**[Azure SIEM Honeypot Project](https://github.com/Chrisstoute/Azure-Siem-Honeypot-Lab)**
-
-### Skills Demonstrated
-
-- Microsoft Azure
-- Microsoft Sentinel SIEM
-- Log Analytics Workspace
-- KQL Querying
-- Windows Security Event Logs
-- Event ID 4625 Analysis
-- GeoIP Log Enrichment
-- Attack Map Visualization
-
----
-
-## 🛡️ Vulnerability Management Program Implementation Project
-
-A full-scale vulnerability management project simulating how enterprise organizations identify, assess, remediate, and validate security vulnerabilities across cloud-hosted infrastructure.
-
-**[Vulnerability Management Program Implementation](https://github.com/Chrisstoute/Vulnerability-Management-Program)**
-
-### Key Capabilities
-
-- Microsoft Azure VM Deployment
-- Tenable Vulnerability Management
-- Authenticated Vulnerability Scanning
-- Windows & Linux Hardening
-- PowerShell Remediation Scripting
-- SMB Security Configuration
-- SSL/TLS Hardening
-- NTLM/Authentication Hardening
-- RDP & NLA Security Configuration
-- Vulnerability Validation & Verification
-- Vulnerability Lifecycle Management
-- Risk Reduction & Remediation Workflows
-
-### Technologies Used
-
-- Microsoft Azure
-- Tenable Vulnerability Management
-- PowerShell
-- Windows Server 2025
-- Ubuntu Linux
-- SSH
-- SMB / Samba
-- FTP / vsftpd
-- Windows Registry
-- Network Security Groups (NSGs)
-
----
-
-## 🛡️ File Integrity Monitoring (FIM) Project
-
-A PowerShell-based security project simulating real-world file monitoring and threat detection.
-
-**[File Integrity Monitoring Project](https://github.com/Chrisstoute/File-Integrity-Monitoring-Lab)**
-
-### Key Capabilities
-
-- SHA256-based file integrity validation
-- Multi-file and directory monitoring
-- Security event logging and alert generation
-- Attacker attribution (user + host tracking)
-- Persistent baseline management
-- Simulated attack scenarios
-
----
-
-# 🧠 What I’m Learning
-
-```text
-[+] SIEM Investigation
-[+] Threat Detection
-[+] Vulnerability Management
-[+] Security Monitoring Engineering
-[+] PowerShell Automation
-[+] Active Directory Security
-[+] Cloud Security
-[+] Windows & Linux Hardening
-[+] Incident Response
-[+] KQL / Python Coding
-[+] Tenable Vulnerability Management
-[+] Security Configuration Management
-```
+</div>
