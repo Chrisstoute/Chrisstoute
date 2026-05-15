@@ -71,6 +71,29 @@ Built a Microsoft Sentinel detection and incident response workflow for excessiv
 
 ---
 
+### 🧅 Unauthorized TOR Usage Threat Hunt
+
+**Repository:** [Unauthorized TOR Usage Threat Hunt](https://github.com/Chrisstoute/Unauthorized-TOR-Usage-Threat-Hunt)
+
+Performed a Microsoft Defender for Endpoint threat hunt focused on identifying unauthorized TOR Browser installation and usage within an enterprise environment. The investigation used Advanced Hunting and KQL to detect TOR-related file activity, process execution, network connections, suspicious browsing behavior, and evidence of user-created files associated with dark web activity.
+
+**Skills Demonstrated:**
+
+- Microsoft Defender for Endpoint
+- Advanced Hunting
+- KQL
+- DeviceFileEvents analysis
+- DeviceProcessEvents analysis
+- DeviceNetworkEvents analysis
+- TOR browser detection
+- Endpoint telemetry investigation
+- Suspicious network activity analysis
+- Timeline reconstruction
+- Incident response documentation
+- MITRE ATT&CK mapping
+
+---
+
 ## 🛡️ Vulnerability Management Projects
 
 ### Vulnerability Management Program Implementation
