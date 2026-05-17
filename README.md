@@ -31,7 +31,28 @@ I have been working heavily with **Microsoft Sentinel, Microsoft Defender for En
 ---
 
 ## 🚨 Featured Threat Hunting & SOC Projects
+---
+### 🚢 Azuki Port of Entry Threat Hunt
 
+**Repository:** [Azuki Port of Entry Threat Hunt](https://github.com/Chrisstoute/Port-of-Entry-Threat-Hunt)
+
+Investigated a simulated compromise of an IT admin workstation for Azuki Import/Export after sensitive supplier contracts and pricing data were exposed. The hunt used Microsoft Defender for Endpoint Advanced Hunting and KQL to trace the full attack chain from initial access through persistence, credential dumping, data staging, exfiltration, defense evasion, and lateral movement.
+
+**Skills Demonstrated:**
+
+- Microsoft Defender for Endpoint
+- Advanced Hunting
+- KQL
+- Incident response investigation
+- Process, file, registry, and network telemetry analysis
+- Initial access investigation
+- Persistence detection
+- Credential dumping analysis
+- Data staging and exfiltration investigation
+- Lateral movement analysis
+- Windows event log clearing detection
+- SOC-style reporting and documentation
+---
 ### 🧨 PwnCrypt Ransomware Threat Hunt
 
 **Repository:** [PwnCrypt Ransomware Threat Hunt](https://github.com/Chrisstoute/PwnCrypt-Ransomware-Threat-Hunt)
