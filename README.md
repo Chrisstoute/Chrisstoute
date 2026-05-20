@@ -32,6 +32,37 @@ I have been working heavily with **Microsoft Sentinel, Microsoft Defender for En
 
 ## 🚨 Featured Threat Hunting & SOC Projects
 ---
+## 👻 Ghost in the Stack — Advanced Threat Hunt
+
+**Repository:** [Ghost in the Stack](https://github.com/Chrisstoute/Ghost-in-the-Stack)
+
+Conducted an advanced multi-phase threat hunt against a simulated Linux intrusion on `GF-DEV01`. The investigation used Microsoft Sentinel, Microsoft Defender Advanced Hunting, KQL, Linux telemetry, shell history, file events, process execution data, network events, and service state evidence to reconstruct the full attacker lifecycle from initial access through implant deployment, persistence, lateral movement preparation, payload staging, and live-threat containment planning.
+
+**Skills Demonstrated:**
+
+- Microsoft Sentinel
+- Microsoft Defender Advanced Hunting
+- KQL
+- Linux threat hunting
+- Incident response investigation
+- Process telemetry analysis
+- File telemetry analysis
+- Linux shell history analysis
+- SSH authentication investigation
+- Persistence detection
+- Systemd service investigation
+- Implant and C2 activity analysis
+- Network enrichment and OSINT
+- Containment planning
+- SOC-style reporting and documentation
+
+**Key Documentation:**
+
+- [Walkthrough](https://github.com/Chrisstoute/Ghost-in-the-Stack/blob/main/docs/walkthrough.md)
+- [Findings Summary](https://github.com/Chrisstoute/Ghost-in-the-Stack/blob/main/docs/findings-summary.md)
+- [Lessons Learned](https://github.com/Chrisstoute/Ghost-in-the-Stack/blob/main/docs/lessons-learned.md)
+
+---
 ### 🚢 Azuki Port of Entry Threat Hunt
 
 **Repository:** [Azuki Port of Entry Threat Hunt](https://github.com/Chrisstoute/Port-of-Entry-Threat-Hunt)
