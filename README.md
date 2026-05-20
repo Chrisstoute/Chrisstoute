@@ -24,7 +24,7 @@
 
 I’m building a hands-on cybersecurity portfolio focused on **real-world SOC operations, threat hunting, incident response, vulnerability management, cloud security, and automation**.
 
-My projects are designed to simulate practical blue-team workflows: detecting suspicious activity, investigating telemetry, creating detection logic, documenting findings, containing incidents, validating remediation, and presenting results in a way that is interview-ready.
+My projects are designed to simulate practical blue-team workflows: detecting suspicious activity, investigating telemetry, creating detection logic, documenting findings, containing incidents, validating remediation, and presenting results.
 
 I have been working heavily with **Microsoft Sentinel, Microsoft Defender for Endpoint, AzureActivity logs, KQL, Tenable Vulnerability Management, PowerShell, Azure virtual machines, Windows/Linux hardening, and GitHub documentation**.
 
