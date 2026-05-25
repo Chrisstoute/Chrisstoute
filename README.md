@@ -18,13 +18,36 @@
 
 </div>
 
----
+</div>
+
+<div align="center">
+
+
+<table>
+<tr>
+<td align="center">
+
+<h3>🛡️ Cyber Range Scenario Credit 🛡️</h3>
+
+<strong>All threat hunt scenarios, projects, and training were provided by Josh Madakor, CEO of The Cyber Range.</strong>
+
+<br><br>
+
+<a href="https://www.skool.com/cyber-range">
+  <img src="https://img.shields.io/badge/JOIN%20THE%20CYBER%20RANGE-CLICK%20HERE-red?style=for-the-badge&labelColor=000000&color=ff0000" alt="Join The Cyber Range">
+</a>
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ## 🧭 About This Portfolio
 
-I’m building a hands-on cybersecurity portfolio focused on **real-world SOC operations, threat hunting, incident response, vulnerability management, cloud security, and automation**.
+The **Cyber Range Internship** helped me build a practical, job-ready cybersecurity portfolio focused on analyst-level workflows instead of theory alone. I worked through realistic scenarios involving suspicious activity detection, endpoint investigation, Azure activity monitoring, ransomware-style behavior, Linux compromise analysis, vulnerability management, and compliance remediation.
 
-My projects are designed to simulate practical blue-team workflows: detecting suspicious activity, investigating telemetry, creating detection logic, documenting findings, containing incidents, validating remediation, and presenting results.
+The projects I've completed are designed to simulate practical blue-team workflows: detecting suspicious activity, investigating telemetry, creating detection logic, documenting findings, containing incidents, validating remediation, and presenting results.
 
 I have been working heavily with **Microsoft Sentinel, Microsoft Defender for Endpoint, AzureActivity logs, KQL, Tenable Vulnerability Management, PowerShell, Azure virtual machines, Windows/Linux hardening, and GitHub documentation**.
 
@@ -32,6 +55,56 @@ I have been working heavily with **Microsoft Sentinel, Microsoft Defender for En
 
 ## 🚨 Featured Threat Hunting & SOC Projects
 ---
+## 🛡️ DISA STIG Remediation Project
+
+**Repository:** [DISA STIG Remediation Project](https://github.com/Chrisstoute/DISA-Stigs)
+
+Completed 10 DISA STIG remediations against a Windows 11 virtual machine using Tenable compliance scanning, Local Group Policy, Local Security Policy, Registry Editor, PowerShell, and repeated validation scans. Each STIG remediation was documented in its own folder with screenshots, remediation scripts, before-and-after evidence, manual remediation references, and final Tenable pass validation.
+
+**STIGs Completed:**
+
+| # | STIG ID | Requirement | Status |
+|---|---|---|---|
+| 1 | WN11-AU-000500 | Application event log size must be configured to 32768 KB or greater | Completed |
+| 2 | WN11-AU-000510 | System event log size must be configured to 32768 KB or greater | Completed |
+| 3 | WN11-AU-000505 | Security event log size must hold at least one week of audit records | Completed |
+| 4 | WN11-AC-000020 | Password history must be configured to 24 passwords remembered | Completed |
+| 5 | WN11-AC-000035 | Minimum password length must be configured to 14 characters | Completed |
+| 6 | WN11-AC-000010 | Number of allowed bad logon attempts must be configured to three or fewer | Completed |
+| 7 | WN11-CC-000330 | WinRM client must not use Basic authentication | Completed |
+| 8 | WN11-CC-000360 | WinRM client must not use Digest authentication | Completed |
+| 9 | WN11-CC-000350 | WinRM service must not allow unencrypted traffic | Completed |
+| 10 | WN11-CC-000270 | Remote Desktop Services must prevent users from saving passwords | Completed |
+
+**Skills Demonstrated:**
+
+- DISA STIG compliance analysis
+- Tenable compliance scanning
+- Windows 11 security hardening
+- Local Group Policy configuration
+- Local Security Policy configuration
+- Windows Registry remediation
+- PowerShell automation
+- Event log configuration
+- Account policy hardening
+- WinRM security configuration
+- Remote Desktop security configuration
+- Before-and-after validation evidence
+- Remediation documentation
+- Git and GitHub project publishing
+
+**Key Capabilities:**
+
+- Identified failed DISA/STIG audit checks in Tenable.
+- Reviewed STIG requirements and Tenable solution guidance.
+- Performed manual remediation path review through Windows policy tools.
+- Created repeatable PowerShell scripts for each remediation.
+- Validated local settings using PowerShell, registry checks, `net accounts`, `gpupdate`, and `wevtutil`.
+- Performed follow-up Tenable scans to confirm remediation success.
+- Published each STIG as a standalone GitHub remediation folder.
+
+---
+
 ## 👻 Ghost in the Stack — Advanced Threat Hunt
 
 **Repository:** [Ghost in the Stack](https://github.com/Chrisstoute/Ghost-in-the-Stack)
@@ -146,7 +219,7 @@ Performed a Microsoft Defender for Endpoint threat hunt focused on identifying u
 
 ---
 
-## 🛡️ Vulnerability Management Projects
+## 🛡️ Vulnerability Management Project
 
 ### Vulnerability Management Program Implementation
 
@@ -270,6 +343,40 @@ Automation & Scripting
 - PowerShell automation for security tasks
 - SOC analyst interview readiness
 - GitHub portfolio documentation
+
+---
+## 🎯 Final Portfolio Reflection
+
+Completing this internship was a long and challenging process, but it gave me hands-on experience that directly aligns with SOC analyst, security analyst, vulnerability management, and incident response responsibilities. Each project forced me to think like an analyst: gather evidence, validate assumptions, understand the risk, take action, and document the outcome clearly.
+
+This internship strengthened my confidence in:
+
+```text
+Reading and interpreting security findings
+Writing KQL queries
+Investigating endpoint activity
+Using SIEM and XDR tools
+Working through vulnerability remediation
+Automating Windows security fixes
+Documenting technical work for a professional audience
+Explaining my process clearly for interviews
+```
+
+---
+
+## 🚀 Completed Cyber Range Internship Portfolio
+
+This portfolio now represents a complete hands-on cybersecurity learning path covering:
+
+- SOC investigations
+- Threat hunting
+- Incident response
+- Azure monitoring
+- Endpoint telemetry analysis
+- Vulnerability management
+- Compliance remediation
+- PowerShell automation
+- Professional GitHub reporting
 
 ---
 
