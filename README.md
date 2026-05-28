@@ -15,6 +15,7 @@
 ![PowerShell](https://img.shields.io/badge/Automation-PowerShell-5391FE)
 ![KQL](https://img.shields.io/badge/Query%20Language-KQL-00B7C3)
 ![Status](https://img.shields.io/badge/Status-Actively%20Building-success)
+![OSINT](https://img.shields.io/badge/OSINT-Threat%20Intelligence-00BFFF)
 
 </div>
 
@@ -45,15 +46,83 @@
 
 ## 🧭 About This Portfolio
 
-The **Cyber Range Internship** helped me build a practical, job-ready cybersecurity portfolio focused on analyst-level workflows instead of theory alone. I worked through realistic scenarios involving suspicious activity detection, endpoint investigation, Azure activity monitoring, ransomware-style behavior, Linux compromise analysis, vulnerability management, and compliance remediation.
+The **Cyber Range Internship** helped me build a practical, job-ready cybersecurity portfolio focused on analyst-level workflows instead of theory alone. This portfolio documents my hands-on cybersecurity projects across threat hunting, security operations, incident response, vulnerability management, compliance remediation, endpoint analysis, SIEM investigations, and open-source intelligence.
 
-The projects I've completed are designed to simulate practical blue-team workflows: detecting suspicious activity, investigating telemetry, creating detection logic, documenting findings, containing incidents, validating remediation, and presenting results.
+Each project is built to demonstrate practical analyst skills through real tools, repeatable workflows, screenshots, technical documentation, and security-focused decision-making.
 
-I have been working heavily with **Microsoft Sentinel, Microsoft Defender for Endpoint, AzureActivity logs, KQL, Tenable Vulnerability Management, PowerShell, Azure virtual machines, Windows/Linux hardening, and GitHub documentation**.
+Projects include Microsoft Defender XDR and Sentinel threat hunting, KQL investigations, Tenable vulnerability and compliance scanning, DISA STIG remediation, PowerShell automation, file integrity monitoring, Azure honeypot monitoring, and OSINT-based threat intelligence enrichment.
+
+The goal of this portfolio is to show not only that I understand cybersecurity concepts, but that I can apply them in a structured, evidence-driven way that supports SOC operations, risk reduction, and incident response.
 
 ---
 
 ## 🚨 Featured Threat Hunting & SOC Projects
+---
+## 🔎 SOC OSINT Investigation Project
+
+**Repository:** [SOC OSINT Investigation](https://github.com/Chrisstoute/SOC-OSINT-Investigation)
+
+Completed a passive Open Source Intelligence (OSINT) investigation of `cloudflare.com` to demonstrate how public intelligence sources can support SOC triage, threat intelligence enrichment, domain analysis, IP reputation review, URL analysis, and analyst-style decision-making.
+
+The project used a safe, legitimate target and focused strictly on passive research methods. No exploitation, vulnerability scanning, intrusive enumeration, authentication bypass, credential access, social engineering, or unauthorized access attempts were performed.
+
+**Investigation Areas Completed:**
+
+| # | Investigation Area | Tools / Sources Used | Status |
+|---|---|---|---|
+| 1 | Project Overview | Analyst scope, rules of engagement, OSINT workflow | Completed |
+| 2 | Domain Investigation | ICANN Lookup, RDAP, WHOIS-style data | Completed |
+| 3 | DNS Analysis | nslookup, DNSChecker, A/AAAA, MX, TXT, NS, SOA records | Completed |
+| 4 | Certificate Transparency | crt.sh wildcard certificate search | Completed |
+| 5 | IP Reputation Analysis | VirusTotal, AbuseIPDB, Shodan, Censys | Completed |
+| 6 | URL Analysis | urlscan.io, VirusTotal URL analysis | Completed |
+| 7 | Threat Intel Mapping | MITRE ATT&CK context and SOC assessment | Completed |
+| 8 | Final Investigation Report | Analyst-style final report and recommendation | Completed |
+
+**Skills Demonstrated:**
+
+- Open Source Intelligence collection
+- Passive reconnaissance
+- Domain registration analysis
+- DNS record analysis
+- Certificate Transparency research
+- IP reputation enrichment
+- URL behavior analysis
+- Public exposure review
+- ASN and ownership validation
+- Threat intelligence interpretation
+- MITRE ATT&CK contextual mapping
+- SOC triage decision-making
+- Analyst-style documentation
+- Git and GitHub project publishing
+
+**Key Capabilities:**
+
+- Reviewed public domain registration and RDAP information using ICANN Lookup.
+- Analyzed DNS records including A, AAAA, MX, TXT, NS, and SOA records.
+- Used Certificate Transparency logs to identify public certificate history and related identities.
+- Enriched a Cloudflare IP address using VirusTotal, AbuseIPDB, Shodan, and Censys.
+- Compared reputation results across multiple sources instead of relying on a single tool.
+- Identified Cloudflare-owned infrastructure using ASN, ownership, WAF, CDN, and reverse proxy indicators.
+- Used urlscan.io to safely review URL behavior, contacted IPs, domains, detected technologies, and page metadata.
+- Mapped OSINT findings to practical SOC and MITRE ATT&CK investigation concepts.
+- Produced a final analyst report with classification, confidence level, supporting evidence, and recommended SOC action.
+
+**Final Assessment:**
+
+| Indicator Type | Indicator | Assessment |
+|---|---|---|
+| Domain | `cloudflare.com` | Benign / Legitimate Infrastructure |
+| URL | `https://www.cloudflare.com/` | Benign / Legitimate Infrastructure |
+| IP Address | `104.16.132.229` | Benign / Legitimate Cloudflare Infrastructure |
+
+**Key Takeaway:**
+
+This project reinforced a core SOC lesson: OSINT tools are most valuable when findings are correlated across multiple sources. A single reputation result should not drive a security decision by itself.
+
+```text
+Correlate multiple OSINT sources before making a security decision.
+```
 ---
 ## 🛡️ DISA STIG Remediation Project
 
