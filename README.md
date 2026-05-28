@@ -397,6 +397,23 @@ Automation & Scripting
 [+] Git and GitHub
 [+] Visual Studio Code
 [+] Markdown documentation
+
+OSINT & Threat Intelligence
+[+] Open Source Intelligence (OSINT)
+[+] Passive reconnaissance
+[+] Domain registration analysis
+[+] WHOIS / RDAP lookup
+[+] DNS record analysis
+[+] Certificate Transparency research
+[+] IP reputation enrichment
+[+] URL reputation analysis
+[+] Public exposure review
+[+] ASN and infrastructure ownership validation
+[+] Indicator enrichment
+[+] Threat intelligence correlation
+[+] MITRE ATT&CK contextual mapping
+[+] Analyst-style OSINT reporting
+
 ```
 
 ---
